@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/unicorn-web-project.war
+  - source: /target/unicorn-web-project-1.0-SNAPSHOT.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
